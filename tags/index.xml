@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 瑞興</title>
+    <title>Tags on 瑞興在這裡</title>
     <link>https://simonhsu.github.io/tags/</link>
-    <description>Recent content in Tags on 瑞興</description>
+    <description>Recent content in Tags on 瑞興在這裡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>筆記思考</title>
+      <link>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98%E6%80%9D%E8%80%83/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>電腦玩物站長 Esor</title>
+      <link>https://simonhsu.github.io/tags/%E9%9B%BB%E8%85%A6%E7%8E%A9%E7%89%A9%E7%AB%99%E9%95%B7-esor/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E9%9B%BB%E8%85%A6%E7%8E%A9%E7%89%A9%E7%AB%99%E9%95%B7-esor/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>disqus</title>
       <link>https://simonhsu.github.io/tags/disqus/</link>
