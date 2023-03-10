@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 瑞興在這裡</title>
+    <title>Categories on 瑞興&#39;s 學習心得筆記</title>
     <link>https://simonhsu.github.io/categories/</link>
-    <description>Recent content in Categories on 瑞興在這裡</description>
+    <description>Recent content in Categories on 瑞興&#39;s 學習心得筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>讀書心得</title>
-      <link>https://simonhsu.github.io/categories/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/</link>
+      <title>閱讀心得</title>
+      <link>https://simonhsu.github.io/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</link>
       <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
       
+      <guid>https://simonhsu.github.io/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://simonhsu.github.io/categories/tech/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://simonhsu.github.io/categories/tips/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://simonhsu.github.io/categories/life/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>讀書心得</title>
+      <link>https://simonhsu.github.io/categories/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
+      
       <guid>https://simonhsu.github.io/categories/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>releases</title>
-      <link>https://simonhsu.github.io/categories/releases/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/categories/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>https://simonhsu.github.io/categories/tranquilpeak/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/categories/tranquilpeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>showcase</title>
-      <link>https://simonhsu.github.io/categories/showcase/</link>
-      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/categories/showcase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>https://simonhsu.github.io/categories/features/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/categories/features/</guid>
       <description></description>
     </item>
     

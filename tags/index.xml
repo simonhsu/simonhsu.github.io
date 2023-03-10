@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 瑞興在這裡</title>
+    <title>Tags on 瑞興&#39;s 學習心得筆記</title>
     <link>https://simonhsu.github.io/tags/</link>
-    <description>Recent content in Tags on 瑞興在這裡</description>
+    <description>Recent content in Tags on 瑞興&#39;s 學習心得筆記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>筆記思考</title>
-      <link>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98%E6%80%9D%E8%80%83/</link>
+      <title>思考</title>
+      <link>https://simonhsu.github.io/tags/%E6%80%9D%E8%80%83/</link>
       <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98%E6%80%9D%E8%80%83/</guid>
+      <guid>https://simonhsu.github.io/tags/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生產力</title>
+      <link>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>筆記</title>
+      <link>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E7%AD%86%E8%A8%98/</guid>
       <description></description>
     </item>
     
@@ -26,200 +44,128 @@
     </item>
     
     <item>
-      <title>disqus</title>
-      <link>https://simonhsu.github.io/tags/disqus/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>Istio</title>
+      <link>https://simonhsu.github.io/tags/istio/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/disqus/</guid>
+      <guid>https://simonhsu.github.io/tags/istio/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>google analytics</title>
-      <link>https://simonhsu.github.io/tags/google-analytics/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>ubuntu</title>
+      <link>https://simonhsu.github.io/tags/ubuntu/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/google-analytics/</guid>
+      <guid>https://simonhsu.github.io/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gravatar</title>
-      <link>https://simonhsu.github.io/tags/gravatar/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>Microservice</title>
+      <link>https://simonhsu.github.io/tags/microservice/</link>
+      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/gravatar/</guid>
+      <guid>https://simonhsu.github.io/tags/microservice/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hexo theme</title>
-      <link>https://simonhsu.github.io/tags/hexo-theme/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>Security</title>
+      <link>https://simonhsu.github.io/tags/security/</link>
+      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/hexo-theme/</guid>
+      <guid>https://simonhsu.github.io/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>responsive</title>
-      <link>https://simonhsu.github.io/tags/responsive/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      <title>Kubernetes</title>
+      <link>https://simonhsu.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/responsive/</guid>
+      <guid>https://simonhsu.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html elements</title>
-      <link>https://simonhsu.github.io/tags/html-elements/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <title>Travel</title>
+      <link>https://simonhsu.github.io/tags/travel/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/html-elements/</guid>
+      <guid>https://simonhsu.github.io/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://simonhsu.github.io/tags/markdown/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      <title>Helm</title>
+      <link>https://simonhsu.github.io/tags/helm/</link>
+      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/markdown/</guid>
+      <guid>https://simonhsu.github.io/tags/helm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cover image</title>
-      <link>https://simonhsu.github.io/tags/cover-image/</link>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <title>API Gateway</title>
+      <link>https://simonhsu.github.io/tags/api-gateway/</link>
+      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/cover-image/</guid>
+      <guid>https://simonhsu.github.io/tags/api-gateway/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>github theme</title>
-      <link>https://simonhsu.github.io/tags/github-theme/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+      <title>service Mesh</title>
+      <link>https://simonhsu.github.io/tags/service-mesh/</link>
+      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/github-theme/</guid>
+      <guid>https://simonhsu.github.io/tags/service-mesh/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>highlight code</title>
-      <link>https://simonhsu.github.io/tags/highlight-code/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+      <title>Docker</title>
+      <link>https://simonhsu.github.io/tags/docker/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/highlight-code/</guid>
+      <guid>https://simonhsu.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>test</title>
-      <link>https://simonhsu.github.io/tags/test/</link>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+      <title>Tips</title>
+      <link>https://simonhsu.github.io/tags/tips/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/test/</guid>
+      <guid>https://simonhsu.github.io/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tag plugins</title>
-      <link>https://simonhsu.github.io/tags/tag-plugins/</link>
-      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <title>Vim</title>
+      <link>https://simonhsu.github.io/tags/vim/</link>
+      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/tag-plugins/</guid>
+      <guid>https://simonhsu.github.io/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>social</title>
-      <link>https://simonhsu.github.io/tags/social/</link>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      <title>nginmesh</title>
+      <link>https://simonhsu.github.io/tags/nginmesh/</link>
+      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/social/</guid>
+      <guid>https://simonhsu.github.io/tags/nginmesh/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tags</title>
-      <link>https://simonhsu.github.io/tags/tags/</link>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <title>讀書心得</title>
+      <link>https://simonhsu.github.io/tags/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sat, 04 Nov 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pagination</title>
-      <link>https://simonhsu.github.io/tags/pagination/</link>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/pagination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dailymotion</title>
-      <link>https://simonhsu.github.io/tags/dailymotion/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/dailymotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>videos integration</title>
-      <link>https://simonhsu.github.io/tags/videos-integration/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/videos-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vimeo</title>
-      <link>https://simonhsu.github.io/tags/vimeo/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/vimeo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://simonhsu.github.io/tags/youtube/</link>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chinese</title>
-      <link>https://simonhsu.github.io/tags/chinese/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/chinese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>image gallery</title>
-      <link>https://simonhsu.github.io/tags/image-gallery/</link>
-      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/image-gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>japanese</title>
-      <link>https://simonhsu.github.io/tags/japanese/</link>
-      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/japanese/</guid>
+      <guid>https://simonhsu.github.io/tags/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/</guid>
       <description></description>
     </item>
     
