@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="徐瑞興&#39;s Blog">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://simonhsu.github.io/img/collected/nasa-Q1p7bh3SHj8-unsplash.jpg">
+    <meta property="twitter:image" content="https://simonhsu.github.io/img/collected/nasa-Q1p7bh3SHj8-unsplash.jpg" />
+    
+
+    
+    <meta name="title" content="一個透過騙大腦來記起許多重點的筆記串接神器 - readwise" />
+    <meta property="og:title" content="一個透過騙大腦來記起許多重點的筆記串接神器 - readwise" />
+    <meta property="twitter:title" content="一個透過騙大腦來記起許多重點的筆記串接神器 - readwise" />
+    
+
+    
+    <meta name="description" content="徐瑞興。Simon Hsu。期望抓住">
+    <meta property="og:description" content="徐瑞興。Simon Hsu。期望抓住" />
+    <meta property="twitter:description" content="徐瑞興。Simon Hsu。期望抓住" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="AI , 心得, 書摘 , 讀書心得 ,  Book, Note , Reading Note">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>一個透過騙大腦來記起許多重點的筆記串接神器 - readwise |  分享學習 | 閱讀心得</title>
+
+    <link rel="canonical" href="/post/readwise/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T0TWM7T5YD"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-T0TWM7T5YD', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">徐瑞興&#39;s Blog</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/%E5%BF%83%E5%BE%97">心得</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/%E9%96%B1%E8%AE%80%E5%BF%83%E5%BE%97">閱讀心得</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive/">所有文章</a></li>
+                    
+                        <li><a href="/about/">ABOUT</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/collected/nasa-Q1p7bh3SHj8-unsplash.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/readwise" title="Readwise">
+                            Readwise
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E7%94%9F%E7%94%A2%E5%8A%9B" title="生產力">
+                            生產力
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E5%B7%A5%E5%85%B7" title="工具">
+                            工具
+                        </a>
+                        
+                    </div>
+                    <h1>一個透過騙大腦來記起許多重點的筆記串接神器 - readwise</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    徐瑞興&#39;s Blog
+                             
+                            on 
+                            Tuesday, February 28, 2023
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>剛好看到最近有人在討論 readwise，
+我也來分享使用它 2 個月左右的心得~</p>
+<p>我最近對它的體悟是，
+這真是一個完美結合人腦特性所開發出來的神兵利器~
+尤其非常適合用在這個資訊爆炸及資訊碎片化的時代~</p>
+<h2 id="如何形容-readwise-">如何形容 Readwise ?</h2>
+<p>當來自四面八方各式各樣的碎片化資訊朝我們的方向襲來，
+我們隨時要準備各種爪子抓住並在短暫時間內決定要不要保存它，</p>
+<p>而 Readwise 就是事先開啟一個蟲洞，
+並在我們每個用來抓資訊的爪子上安排守衛，
+我們大腦只要決定這個資訊要留或是不要留，
+要留的話，這個守衛就會負責把資訊安全快速地送到你指定好的蟲洞保存好~</p>
+<p>而你可以事先設定好，要把收集到的資訊從蟲洞內
+隨時同步到 1 個或多個你熟悉的筆記軟體上~
+哪天你的筆記軟體用不習慣了想換一套，或是筆記格式不喜歡想重新整理，
+依舊可以從這個蟲洞，重新將你過往摘錄過的筆記與劃過的重點，
+重新拉出來~ 並依照你期望的格式重新排列好輸出</p>
+<h2 id="為什麼適合人腦特性-">為什麼適合人腦特性 ?</h2>
+<p>因為 readwise 另一個特點是他機制的設計，會讓你不小心&rsquo;記得&rsquo;很多事，
+根據 艾賓浩斯遺忘曲線 ( The Ebbinghaus Forgetting Curve ) ，
+人腦學習的內容在相隔一天後大約會忘掉70%。
+但是大腦還有另一個特性，是 &ldquo;提取效應&rdquo; ，
+也就是透過回憶，可以讓我們的記憶更強化的現象。</p>
+<p>當我們快要忘記一個曾經看過的資訊時，
+若有一個機制可以讓這個資訊再自動浮出來，重複出現讓我們看到一下，
+或是透過提示 ( readwise 提供的閃卡功能 ) ，讓我們試著自己回想起更多相關內容，</p>
+<p>因為過程需要動用更多腦力，可以同步激發更多大腦活動神經元
+我們的大腦會下意識地覺得這項訊息很重要，就會不小心記住它了
+( 簡單來說，就是透過人工的方式設計流程機制,
+騙大腦， 讓大腦誤以為這些資訊很重要以達到記憶的效果 )</p>
+<h2 id="簡單列舉一下-readwise-目前支援的筆記捕捉工具及輸出工具">簡單列舉一下 readwise 目前支援的筆記捕捉工具及輸出工具</h2>
+<ul>
+<li>Input : Pocket , Instapaper , Kindle , Kobo , Medium , Goodreads ,etc.</li>
+<li>Output : Notion , Evernote , Obsidian , Logseq , Roam , Heptabase , etc.</li>
+</ul>
+<p>而關於 readwise 的提醒複習機制也可以客製化設定，
+你可以設定收信的頻率，每天什麼時刻收，每次要收幾則你摘錄過的重點或筆記，
+甚至針對你覺得很重要想強化出現頻率的書籍或文章, 個別調高權重</p>
+<p>每天設定一個你空閒的時段準備收信，時間到會寄信給你，內容打開往下滑一滑，
+整個強化大腦記憶效果的流程就完成了~👍</p>
+<h2 id="我目前使用-readwise-的-2-大場景">我目前使用 readwise 的 2 大場景:</h2>
+<ol>
+<li>用在我閱讀 kobo 電子書時</li>
+</ol>
+<ul>
+<li>
+<p>由於 readwise 有支援 kobo input ，所以我閱讀時邊畫重點+寫筆記，
+readwise 就直接把重點及筆記全部即時同步到我的筆記軟體 Obsidian 上了。
+除了完全省去我後續整理數位筆記的步驟，
+未來我要找筆記就直接在 Obsidian 搜尋關鍵字就找得到~</p>
+</li>
+<li>
+<p>若在寫筆記時順便用上 Obsidian 的雙向連結特性來紀錄 ( bi-directional linking ) ，效果更好，可以跨書籍尋找類似筆記 ，例如 [[金句]] [[不錯比喻]]</p>
+</li>
+</ul>
+<blockquote>
+<p>這邊順便誇讚一下最近 kobo 有進步的地方，回想 3,4 年前 kobo 的筆記方式相當 poor&hellip; 把畫線地方輸出還需要開啟&rsquo;工程模式&rsquo; 才能把筆記用純文字檔匯出，我記得我才嘗試過一次後續就懶得整理了.. 真是個慘不忍睹的過去 ，現在真的方便多了</p>
+</blockquote>
+<ol start="2">
+<li>寫筆記時同步記錄出處，相關資訊全都幫你寫回筆記軟體
+電腦網頁透過安裝 chrome extention 外掛程式 ( hypothesis / readwise community )
+手機安裝 readwise app ，看到想記重點的部分就反白，指定分享到 readwise app ，只要預先設定好，有寫上筆記的，透過搜索在你的最終筆記軟體都找得到
+不必擔心之前是臨時記在那些地方還要回去找，</li>
+</ol>
+<p>其他更多應用場景尚在探索中，
+但以目前的使用情況我已經覺得相當值回票價了~</p>
+<h2 id="總結">總結</h2>
+<p>我認為 readwise 對我的三大幫助 :</p>
+<ol>
+<li>無痛轉接性
+方便的點在，即便後續推出全新筆記軟體，也可以把過去的筆記及畫線內容無痛轉移，不用擔心搬家問題</li>
+<li>連結大腦強化複習記憶
+透過每天自動整理 email 幫助回顧，加強記憶</li>
+<li>各平台的重點或筆記內容直接雲端同步，無須後續整理步驟
+這一步真是省去我相當多整理時間，
+而且不論哪個爪子抓到的內容，全都可以在一個地方搜索就找得到~
+把時間省下來可以做更多有意義的事，感覺真的很棒
+多虧過去腦科學的研究，才有這種資訊產品可以讓我們的大腦發揮更大的效益~
+從今天起一起來升級我們 處理資訊流的大腦作業系統吧~</li>
+</ol>
+<h2 id="one-more-thing-推薦邀請碼紅利">One more thing 推薦邀請碼紅利~</h2>
+<p>若覺得上述資訊有幫助，
+由於我已是付費用戶，若透過我的推薦連結註冊 readwise ，
+你我的試用期將可以增加一個月~
+( 原本是 1 個月 ，透過我的 readwise 邀請連結 註冊可以試用 2 個月後再決定是否付費 )
+我的推薦連結如下 :</p>
+<p><a href="https://readwise.io/i/simon901">https://readwise.io/i/simon901</a></p>
+<p>​現在就開始試用體驗看看吧~</p>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/esor-book-note-thinking/" data-toggle="tooltip" data-placement="top" title="電腦玩物站長的筆記思考術 心得">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+                
+
+                
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/%E7%94%9F%E7%94%A2%E5%8A%9B" title="生產力">
+                            生產力
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/54simon/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="徐瑞興&#39;s Blog" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; 徐瑞興&#39;s Blog 2023
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
