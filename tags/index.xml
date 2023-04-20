@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 徐瑞興&#39;s Blog</title>
+    <title>Tags on Simon Hsu</title>
     <link>https://simonhsu.github.io/tags/</link>
-    <description>Recent content in Tags on 徐瑞興&#39;s Blog</description>
+    <description>Recent content in Tags on Simon Hsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://simonhsu.github.io/tags/ai/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工具</title>
+      <link>https://simonhsu.github.io/tags/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生產力</title>
+      <link>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Readwise</title>
       <link>https://simonhsu.github.io/tags/readwise/</link>
@@ -17,20 +44,11 @@
     </item>
     
     <item>
-      <title>工具</title>
-      <link>https://simonhsu.github.io/tags/%E5%B7%A5%E5%85%B7/</link>
+      <title>資訊</title>
+      <link>https://simonhsu.github.io/tags/%E8%B3%87%E8%A8%8A/</link>
       <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://simonhsu.github.io/tags/%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生產力</title>
-      <link>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
-      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</guid>
+      <guid>https://simonhsu.github.io/tags/%E8%B3%87%E8%A8%8A/</guid>
       <description></description>
     </item>
     

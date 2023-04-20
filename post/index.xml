@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 徐瑞興&#39;s Blog</title>
+    <title>Posts on Simon Hsu</title>
     <link>https://simonhsu.github.io/post/</link>
-    <description>Recent content in Posts on 徐瑞興&#39;s Blog</description>
+    <description>Recent content in Posts on Simon Hsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元</title>
+      <link>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</guid>
+      <description>&lt;p&gt;整理一下今天嘗試把 Kobo 購買的原文電子書，
+透過免費轉檔工具 bilingual_book_maker  轉檔並翻譯為中英文並存電子書的過程。
+提供給未來想第一時間用繁體中文閱讀國外原文書的讀者們參考&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一個新的 OpenAI Mafia (黑幫) 正在成形</title>
+      <link>https://simonhsu.github.io/post/2023-02-28-about-openai-mafia/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-02-28-about-openai-mafia/</guid>
+      <description>&lt;p&gt;過去曾待過 OpenAI ( ChatGPT 母公司 ) 的高管們，現在離開公司後都在幹嘛呢~
+一個新的 OpenAI 黑幫正在成形~&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>一個透過騙大腦來記起許多重點的筆記串接神器 - readwise</title>
       <link>https://simonhsu.github.io/post/readwise/</link>
@@ -18,6 +39,16 @@
 &lt;p&gt;我最近對它的體悟是，
 這真是一個完美結合人腦特性所開發出來的神兵利器~&lt;br&gt;
 尤其非常適合用在這個資訊爆炸及資訊碎片化的時代~&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai</title>
+      <link>https://simonhsu.github.io/post/2023-03-11-about-leonardo-ai/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-03-11-about-leonardo-ai/</guid>
+      <description>&lt;p&gt;前幾天看到有 youtuber 介紹一個超神的 AI 雲端影像編輯應用  - Leonardo ai
+幾乎把影像相關目前想得到的應用都整合進一個方便操作的 UI 內了&lt;/p&gt;</description>
     </item>
     
     <item>

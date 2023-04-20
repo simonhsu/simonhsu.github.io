@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>生產力 on 徐瑞興&#39;s Blog</title>
+    <title>生產力 on Simon Hsu</title>
     <link>https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/</link>
-    <description>Recent content in 生產力 on 徐瑞興&#39;s Blog</description>
+    <description>Recent content in 生產力 on Simon Hsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/%E7%94%9F%E7%94%A2%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元</title>
+      <link>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</guid>
+      <description>&lt;p&gt;整理一下今天嘗試把 Kobo 購買的原文電子書，
+透過免費轉檔工具 bilingual_book_maker  轉檔並翻譯為中英文並存電子書的過程。
+提供給未來想第一時間用繁體中文閱讀國外原文書的讀者們參考&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>一個透過騙大腦來記起許多重點的筆記串接神器 - readwise</title>
       <link>https://simonhsu.github.io/post/readwise/</link>
