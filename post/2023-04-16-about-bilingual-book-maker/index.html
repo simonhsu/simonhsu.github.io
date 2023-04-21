@@ -189,10 +189,6 @@ if (!doNotTrack) {
                             工具
                         </a>
                         
-                        <a class="tag" href="/tags/ai" title="AI">
-                            AI
-                        </a>
-                        
                     </div>
                     <h1>透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元</h1>
                     <h2 class="subheading"></h2>
@@ -229,33 +225,32 @@ if (!doNotTrack) {
                 post-container">
 
                 
-                <p>整理一下今天嘗試把 Kobo 購買的原文電子書，
-透過免費轉檔工具 bilingual_book_maker  轉檔並翻譯為中英文並存電子書的過程。
+                <p>整理一下今天嘗試把 Kobo 購買的原文電子書，<br>
+透過免費轉檔工具 bilingual_book_maker  轉檔並翻譯為中英文並存電子書的過程。<br>
 提供給未來想第一時間用繁體中文閱讀國外原文書的讀者們參考</p>
 <h2 id="先講結論總共花了多少錢-">先講結論，總共花了多少錢 ？</h2>
 <p>我翻譯了自己曾在 Kobo 上購買的這本書英文版
-&lt;Mind Management, Not Time Management&gt; 作者 - David Kadavy
-這本書於 kobo 商店顯示的總字數是 65,000 字 ( 頁數 242 頁 )
-而整體轉檔完看 OpenAI Billing 內的 Usage 總共是扣了 0.49 USD 左右
-換算台幣大約 15 元左右，實在相當划算阿..
-( 除此之外還沒算進可以在第一時間就讀到原文書的資訊落差價值 )
+&lt;Mind Management, Not Time Management&gt; 作者 - David Kadavy<br>
+這本書於 kobo 商店顯示的總字數是 65,000 字 ( 頁數 242 頁 )<br>
+而整體轉檔完看 OpenAI Billing 內的 Usage 總共是扣了 0.49 USD 左右<br>
+換算台幣大約 15 元左右，實在相當划算阿..<br>
+( 除此之外還沒算進可以在第一時間就讀到原文書的資訊落差價值 )<br>
 而且翻譯品質看起來還算通順，很可以👍</p>
 <p>
   <img src="https://raw.githubusercontent.com/simonhsu/images/main/2023/1682004959000zapkya.jpg" alt="gh">
 
 </p>
 <h2 id="驗算一下-openai-的計費模型">驗算一下 OpenAI 的計費模型</h2>
-<p>該工具預設使用的轉檔模型 =&gt; GPT-3.5-turbo
-而 GPT-3.5-turbo 計費方式是 1000 tokens = 0.002 USD
-就 OpenAI 提供的粗算方式 =&gt; 1000 tokens 大約等於 750 words
-所以理論上若單純看這本書總費用粗估應該要是
-65000/750x0.002 =0.173 USD 左右
-而實際與理論之間的差距 ( 0.49 - 0.173 ) 我猜大概就是對答之間的提問字數了吧?
+<p>該工具預設使用的轉檔模型 =&gt; GPT-3.5-turbo<br>
+而 GPT-3.5-turbo 計費方式是 1000 tokens = 0.002 USD<br>
+就 OpenAI 提供的粗算方式 =&gt; 1000 tokens 大約等於 750 words<br>
+所以理論上若單純看這本書總費用粗估應該要是 65000/750x0.002 =0.173 USD 左右<br>
+而實際與理論之間的差距 ( 0.49 - 0.173 ) 我猜大概就是對答之間的提問字數了吧?<br>
 未來成本應該還有 fine-tuned 的空間，現在完全只是用預設的設定下去跑，但這個價錢也已經非常香了!</p>
-<p>今天卡比較多時間的不是轉檔過程，反而是要準備電子書檔案 epub 的前置作業
-過去我閱讀電子書都是懶人閱讀法，ipad 開啟 kobo app 就直接看起書了，過去根本沒看過 epub 在 kobo app 外的樣子
-結果處理前置作業過程又遇到 DRM 之類大大小小問題，
-我預計會在下一篇再把 kobo -&gt; calibre -&gt; obok 外掛解 DRM -&gt; 匯出 epub 的流程再整理成一篇整理備忘。
+<p>今天卡比較多時間的不是轉檔過程，反而是要準備電子書檔案 epub 的前置作業<br>
+過去我閱讀電子書都是懶人閱讀法，ipad 開啟 kobo app 就直接看起書了，過去根本沒看過 epub 在 kobo app 外的樣子<br>
+結果處理前置作業過程又遇到 DRM 之類大大小小問題，<br>
+我預計會在下一篇再把 kobo -&gt; calibre -&gt; obok 外掛解 DRM -&gt; 匯出 epub 的流程再整理成一篇整理備忘。<br>
 這篇就先列一下假定我已經有一本英文 epub 電子書，該如何透過轉檔工具轉成中英文兼具的電子書步驟 :</p>
 <h2 id="首先確認先備條件">首先確認先備條件:</h2>
 <ol>
@@ -265,38 +260,54 @@ if (!doNotTrack) {
 </ol>
 <p>接下來進入主題，以下流程以 windows 作業系統舉例，需求為將語言由英文轉檔為繁體中文：</p>
 <ol>
-<li>先到留言網站下載主角 ( bilingual_book_maker ) , 進到網址後點選綠色按鈕 Code -&gt; Download zip
-( 目前該專案 githhub  5200+ 星, 支援約 50 種語言轉檔 )</li>
-<li>解壓縮後打開該資料夾位置，在路徑列上輸入 cmd 指令列，於 command line 中輸入  =&gt; pip install -r requirements.txt  開始安裝必要相依套件</li>
-<li>安裝完成後， 把要轉檔的 epub 電子書放在 test_books 資料夾中，假設電子書檔案名稱是 mindmanagement.epub，那麼待會會用到的路徑參數就會是 test_books/mindmanagement.epub
-.</li>
-<li>在 cmd 內輸入 =&gt; SET OPENAI_API_KEY=這邊填入你的openai api key =&gt; 有做這步後未來轉檔時指令就不必再附上 key</li>
-<li>進到 bilingual_book_maker 資料夾，輸入以下指令先翻譯個 10 頁快速測試一下 =&gt; 指令列輸入  python3 make_book.py &ndash;book_name test_books/mindmanagement.epub &ndash;test &ndash;language zh-hant</li>
-<li>順利的話，轉檔過程會在畫面中看到一句一句中英文對照開始跑出來，轉檔完成會看到轉出檔案出現在 test_books 資料夾下，檔名為 mindmanagement_bilingual.epub ，若看到這個檔案就代表你已經完成測試轉檔，系統環境沒問題了，恭喜你!👏
-.</li>
-<li>接下來若你想轉整本書，就把 &ndash;test 參數拿掉，就能開始轉整本書了，例如 =&gt; python3 make_book.py &ndash;book_name test_books/mindmanagement.epub &ndash;language zh-hant ，理論上 test run 若通過，那麼完整轉一本書也會是 OK 的</li>
+<li>
+<p>先到留言網站下載主角 ( bilingual_book_maker ) , 進到網址後點選綠色按鈕 Code -&gt; Download zip
+( 目前該專案 githhub  5200+ 星, 支援約 50 種語言轉檔 )</p>
+</li>
+<li>
+<p>解壓縮後打開該資料夾位置，在路徑列上輸入 cmd 指令列，於 command line 中輸入  =&gt; pip install -r requirements.txt  開始安裝必要相依套件</p>
+</li>
+<li>
+<p>安裝完成後， 把要轉檔的 epub 電子書放在 test_books 資料夾中，假設電子書檔案名稱是 mindmanagement.epub，那麼待會會用到的路徑參數就會是 test_books/mindmanagement.epub</p>
+</li>
+<li>
+<p>在 cmd 內輸入 =&gt; SET OPENAI_API_KEY=這邊填入你的openai api key =&gt; 有做這步後未來轉檔時指令就不必再附上 key</p>
+</li>
+<li>
+<p>進到 bilingual_book_maker 資料夾，輸入以下指令先翻譯個 10 頁快速測試一下 =&gt; 指令列輸入  python3 make_book.py &ndash;book_name test_books/mindmanagement.epub &ndash;test &ndash;language zh-hant</p>
+</li>
+<li>
+<p>順利的話，轉檔過程會在畫面中看到一句一句中英文對照開始跑出來，轉檔完成會看到轉出檔案出現在 test_books 資料夾下，檔名為 mindmanagement_bilingual.epub ，若看到這個檔案就代表你已經完成測試轉檔，系統環境沒問題了，恭喜你!👏
+.</p>
+</li>
+<li>
+<p>接下來若你想轉整本書，就把 &ndash;test 參數拿掉，就能開始轉整本書了，例如 =&gt; python3 make_book.py &ndash;book_name test_books/mindmanagement.epub &ndash;language zh-hant ，理論上 test run 若通過，那麼完整轉一本書也會是 OK 的</p>
+</li>
 </ol>
 <h2 id="補充-">補充 :</h2>
-<p>若你跟我一樣一開始也沒看過 epub 本人，不知道那是什麼只想先測試轉轉看。bilingual_book_maker 作者也有提供範例 epub 檔案在 test_books 資料夾下給您轉轉看喔~<br>
-例如，把上述指令改成 python3 make_book.py &ndash;book_name test_books/lemo.epub &ndash;test &ndash;language zh-hant ，就可以開始測試轉檔 )</p>
+<p>若你跟我一樣一開始也沒看過 epub 本人，不知道那是什麼只想先測試轉轉看。<br>
+bilingual_book_maker 作者也有提供範例 epub 檔案在 test_books 資料夾下給您轉轉看喔~<br>
+例如，把上述指令改成 python3 make_book.py &ndash;book_name test_books/lemo.epub &ndash;test &ndash;language zh-hant ，就可以開始測試轉檔</p>
 <h2 id="過程有遇過的問題-">過程有遇過的問題 :</h2>
 <ol>
-<li>關於 python 安裝過程的差異 =&gt; 輸入 cmd 指令時我原本依照作者 README 指示輸入 python3 xxxx ，結果都沒反應，後來才發現是因為 python 安裝步驟的不同所導致，若你也跟我一樣輸入指令時都沒報錯也沒反應的話，可將指令最前面的 python3 改成 python 試試看</li>
+<li>關於 python 安裝過程的差異 =&gt;<br>
+輸入 cmd 指令時我原本依照作者 README 指示輸入 python3 xxxx ，結果都沒反應，<br>
+後來才發現是因為 python 安裝步驟的不同所導致，<br>
+若你也跟我一樣輸入指令時都沒報錯也沒反應的話，可將指令最前面的 python3 改成 python 試試看</li>
 </ol>
 <h2 id="總結">總結</h2>
-<p>透過 OpenAI 的幫助，現在翻譯一本書的成本實在太低了，而且感受真的太幸福了.. 🥰
-自己實際跑過一次轉檔再看看帳單計費，過程除了狂掉下巴外，看到成品時真是感到非常激動及興奮..
-除了能在第一時間就讀到國外的原文書、開書率又渴望大大提昇
-( 這篇用來轉檔的原文書，由於我的原文閱讀速度實在太慢 ，之前記得才開起來看過 2 次..  )
-希望各位看完這篇自己試過一次後都可以轉檔順利~ 也感受一下科技進步所帶來的興奮感動..
-另外，若看到好看的原文書而國內還沒出翻譯版的記得多多推薦我~
+<p>透過 OpenAI 的幫助，現在翻譯一本書的成本實在太低了，而且感受真的太幸福了.. 🥰<br>
+自己實際跑過一次轉檔再看看帳單計費，過程除了狂掉下巴外，看到成品時真是感到非常激動及興奮..<br>
+除了能在第一時間就讀到國外的原文書、開書率又渴望大大提昇<br>
+( 這篇用來轉檔的原文書，由於我的原文閱讀速度實在太慢 ，之前記得才開起來看過 2 次..  )<br>
+希望各位看完這篇自己試過一次後都可以轉檔順利~ 也感受一下科技進步所帶來的興奮感動..<br>
+另外，若看到好看的原文書而國內還沒出翻譯版的記得多多推薦我~<br>
 透過 AI 的助力，我要準備開啟看原文資訊的新天地了~  ( 終於開始慢慢跟上中 🐢</p>
 <h2 id="更新補充">更新補充</h2>
-<ul>
-<li>關於計費誤差部分，這邊感謝留言 Cool Man 提供 feedback =&gt;</li>
-</ul>
+<p>關於計費誤差部分，這邊感謝留言 Cool Man 提供 feedback =&gt;</p>
 <ol>
-<li>輸入和輸出的字數都要算錢 2. 輸出的中文字一個字大約為 2 token</li>
+<li>輸入和輸出的字數都要算錢</li>
+<li>輸出的中文字一個字大約為 2 token</li>
 </ol>
 
                 
@@ -351,10 +362,6 @@ if (!doNotTrack) {
                     <div class="tags">
                         
                         
-                        
-                        <a href="/tags/ai" title="ai">
-                            ai
-                        </a>
                         
                         
                         

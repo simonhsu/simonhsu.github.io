@@ -6,18 +6,7 @@
     <description>Recent content in AI on Simon Hsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元</title>
-      <link>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</link>
-      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</guid>
-      <description>&lt;p&gt;整理一下今天嘗試把 Kobo 購買的原文電子書，
-透過免費轉檔工具 bilingual_book_maker  轉檔並翻譯為中英文並存電子書的過程。
-提供給未來想第一時間用繁體中文閱讀國外原文書的讀者們參考&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai</title>
       <link>https://simonhsu.github.io/post/2023-03-11-about-leonardo-ai/</link>
