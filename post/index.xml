@@ -6,7 +6,26 @@
     <description>Recent content in Posts on Simon Hsu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://simonhsu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近期收集的一些 AI 工具或資源分享</title>
+      <link>https://simonhsu.github.io/post/2023-04-25-collected-ai-tools/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-04-25-collected-ai-tools/</guid>
+      <description>&lt;p&gt;分享一下近期收集的一些 AI 工具，簡單分成幾個類別，分別為:&lt;br&gt;
+AI 生成文字應用、AI 影像編輯應用、AI 影片音訊編輯相關應用、Chrome 外掛、其他參考資源&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄</title>
+      <link>https://simonhsu.github.io/post/2023-04-25-realistic-beauty-stable-diffusion-prompts/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://simonhsu.github.io/post/2023-04-25-realistic-beauty-stable-diffusion-prompts/</guid>
+      <description>&lt;p&gt;首先確認以下安裝步驟：&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元</title>
       <link>https://simonhsu.github.io/post/2023-04-16-about-bilingual-book-maker/</link>

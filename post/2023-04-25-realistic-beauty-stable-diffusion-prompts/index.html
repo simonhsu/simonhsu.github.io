@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai" />
-    <meta property="og:title" content="介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai" />
-    <meta property="twitter:title" content="介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai" />
+    <meta name="title" content="透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄" />
+    <meta property="og:title" content="透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄" />
+    <meta property="twitter:title" content="透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="AI , 心得, 書摘 , 讀書心得 ,  Book, Note , Reading Note">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai |  分享學習 | 閱讀心得</title>
+    <title>透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄 |  分享學習 | 閱讀心得</title>
 
-    <link rel="canonical" href="/post/2023-03-11-about-leonardo-ai/">
+    <link rel="canonical" href="/post/2023-04-25-realistic-beauty-stable-diffusion-prompts/">
 
     
     
@@ -181,8 +181,12 @@ if (!doNotTrack) {
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/%E5%B7%A5%E5%85%B7" title="工具">
-                            工具
+                        <a class="tag" href="/tags/%E8%B3%87%E8%A8%8A" title="資訊">
+                            資訊
+                        </a>
+                        
+                        <a class="tag" href="/tags/%E5%82%99%E5%BF%98" title="備忘">
+                            備忘
                         </a>
                         
                         <a class="tag" href="/tags/ai" title="AI">
@@ -190,7 +194,7 @@ if (!doNotTrack) {
                         </a>
                         
                     </div>
-                    <h1>介紹一個超神的 AI 雲端影像編輯應用 - Leonardo ai</h1>
+                    <h1>透過 Stable Diffusion 將動漫圖片轉為擬真人物圖片的流程及參數紀錄</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
@@ -199,7 +203,7 @@ if (!doNotTrack) {
                                     Simon Hsu
                              
                             on 
-                            Tuesday, February 28, 2023
+                            Tuesday, April 25, 2023
                             
                             
                             
@@ -225,67 +229,51 @@ if (!doNotTrack) {
                 post-container">
 
                 
-                <p>前幾天看到有 youtuber 介紹一個超神的 AI 雲端影像編輯應用  - Leonardo ai
-幾乎把影像相關目前想得到的應用都整合進一個方便操作的 UI 內了</p>
-<p>這個 AI 影像編輯網站最讓我驚豔的是，訓練模型的部分都幫你整進去
-不用架站，只要拉幾張同類型風格的圖丟進網站~
-加一點文字咒語，就幫你生成同風格類型的圖片
-諸如此類讓我大開眼界的應用，
-整理一下這個網站發現的亮點:</p>
+                <p>首先確認以下安裝步驟：</p>
+<h1 id="安裝步驟">安裝步驟</h1>
+<ol start="0">
+<li>git clone 該專案 Stable Diffusion Webui <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">https://github.com/AUTOMATIC1111/stable-diffusion-webui</a></li>
+<li>確認安裝 Python 3.10.8</li>
+<li>選擇使用 chilloutmix model， model 由 <a href="https://civitai.com/">https://civitai.com/</a> 下載</li>
+</ol>
+<h1 id="操作步驟">操作步驟</h1>
+<ol start="3">
+<li>安裝完成後點選 img2img Tab</li>
+<li>上傳要轉檔的圖片，點選 &quot; interrogate DeepBooru &quot; ，讓 Stable Diffusion 從圖片辨識文字描述</li>
+</ol>
 <p>
-  <img src="https://raw.githubusercontent.com/simonhsu/images/main/2023/1682005450000yamd3i.png" alt="gh">
+  <img src="https://raw.githubusercontent.com/simonhsu/images/main/2023/1682432764000zn6q48.png" alt="gh">
 
 </p>
-<h2 id="亮點">亮點</h2>
-<ul>
-<li>
-<p>模型訓練 =&gt; 如上所述，可丟進數十張圖，訓練同風格產生新圖，都幫你把功能整合在一起了</p>
-</li>
-<li>
-<p>AI 腦補延伸圖片，拼接功能 =&gt; 選擇兩張圖片，一張原圖，一張是你想請 AI 拼接的圖，擺放好後加上一些文字描述，可以讓 AI 以原圖同風格延伸這張圖片
-( 舉例可應用在一張經典名畫，延伸讓 AI 繼續幫已故畫家繼續畫出沒畫完的部分..超神</p>
-</li>
-<li>
-<p>Image To Pose =&gt; 丟進參考圖，讓畫作擺出一樣的姿勢</p>
-</li>
-<li>
-<p>拉近拉遠視角 =&gt; 覺得圖片太近或太遠，讓 AI 幫你重新調整視角生圖..</p>
-</li>
-<li>
-<p>提詞輔助功能 =&gt; 大腦累了已經想不出新提詞，可以不用恭請 ChatGPT ，丟進圖片後可以讓它直接幫你建議 5 筆新提詞..</p>
-</li>
-</ul>
-<p>上述是我看到比較驚豔的功能，</p>
-<h2 id="其他關於-ai-影像編輯功能-">其他關於 AI 影像編輯功能 :</h2>
-<ul>
-<li>瀏覽網站上的作品畫風，以指定的畫風產圖</li>
-<li>以圖生圖 =&gt; 圖片代替提詞</li>
-<li>影像 AI 去背 =&gt; 取出物件</li>
-<li>影像 AI 合成 =&gt; 把物件再讓 AI 無痕地合成在其他圖上</li>
-</ul>
-<p>不用架站就能使用真的方便很多~
-看完影片的我馬上想嘗試，結果發現網站是邀請制~
-建議大家可先去那邊留 email 等收邀請信，
-收到信後，第一時間體驗一下大腦被衝擊的感覺
-若是迫不及待想試玩，</p>
-<h2 id="加速審核的方法-">加速審核的方法 :</h2>
-<ol>
-<li>到官網留下 email ，</li>
-<li>加入官方 discord ( dc ) ，並回答一些問題</li>
-<li>到這個表單連結 <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1CeVjDk90PduLM-CRu1RBlKPmrlwfIEbbmLE1cb0MRVurZg/viewform?fbclid=IwAR2rbz3e5zC_VGUTsZXMgPLXUCfj9aqLmT1n8kjHHRjTsecMbqbcSFn34ro">https://docs.google.com/forms/d/e/1FAIpQLSc1CeVjDk90PduLM-CRu1RBlKPmrlwfIEbbmLE1cb0MRVurZg/viewform?fbclid=IwAR2rbz3e5zC_VGUTsZXMgPLXUCfj9aqLmT1n8kjHHRjTsecMbqbcSFn34ro</a> ，直接進去表單填希望申請加入白名單
-(  dc 內的  priority-early-access 頻道也有表單連結，連結內容都一樣 )</li>
+<h1 id="參數設定">參數設定</h1>
+<ol start="5">
+<li>設定圖片大小，讓它與原圖一致 ( 範例為 800x600 )</li>
+<li>CFG Scale 設置 -&gt; 7</li>
+<li>Sampling method -&gt; DPM++ SDE Karras</li>
+<li>Denoising strength -&gt; 0.35左右
+( Denoising strength = 讓 AI 腦補的程度 : 數值愈大愈像真人，但與原圖落差會更大 )</li>
 </ol>
-<p>填完表單後，聽說 24 小時後就會收到開通信
-也歡迎有成功審核過的朋友這邊留言分享審核心得或使用心得</p>
-<h2 id="總結">總結</h2>
-<p>看完這網站功能，有讓我想到一句達文西的名言 :
-&quot; Simplicity is the ultimate sophistication. &quot;
-( 簡約是細膩的極致 )
-曾有一位大師也引用過這句話，
-那位是 Steve Jobs 🫡</p>
-<h2 id="參考資料">參考資料</h2>
-<p>Leonardo 網站連結 : <a href="https://leonardo.ai/">https://leonardo.ai/</a>
-PAPAYA 對 Leonardo.ai 的教學 ：https://www.youtube.com/watch?v=VCpNlcffl4w</p>
+<p>
+  <img src="https://raw.githubusercontent.com/simonhsu/images/main/2023/1682432897000qj2s86.png" alt="gh">
+
+</p>
+<ol start="9">
+<li>正面提詞 ：外加  masterpiece , detailed eyes and skin, best quality</li>
+<li>負面提詞 ：nsfw, (worst quality:2), (low quality:2), (normal quality:2), lowres,
+((monochrome)), ((grayscale)), skin spots, veins, acnes, skin blemishes, age spot, glan, extra fingers, fewer fingers, strange fingers, bad hand, bad anatomy, fused fingers, missing leg, mutated hand, malformed limbs, missing feet, skin spots</li>
+<li>按下 Generate ，即可生成</li>
+</ol>
+<p>
+  <img src="https://raw.githubusercontent.com/simonhsu/images/main/2023/1682433107000tcx2os.png" alt="gh">
+
+</p>
+<h1 id="參考資料">參考資料</h1>
+<p>安裝細節若不清楚，可參考 電腦王阿達這隻影片
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/c5xeERCwHgM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
 
                 
 
@@ -294,13 +282,13 @@ PAPAYA 對 Leonardo.ai 的教學 ：https://www.youtube.com/watch?v=VCpNlcffl4w<
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/esor-book-note-thinking/" data-toggle="tooltip" data-placement="top" title="電腦玩物站長的筆記思考術 心得">&larr;
+                        <a href="/post/2023-04-16-about-bilingual-book-maker/" data-toggle="tooltip" data-placement="top" title="透過生成式 AI 翻譯整本原文書，成本居然不到台幣 15 元">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/post/readwise/" data-toggle="tooltip" data-placement="top" title="一個透過騙大腦來記起許多重點的筆記串接神器 - readwise">Next
+                        <a href="/post/2023-04-25-collected-ai-tools/" data-toggle="tooltip" data-placement="top" title="近期收集的一些 AI 工具或資源分享">Next
                             Post &rarr;</a>
                     </li>
                     
